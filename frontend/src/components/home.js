@@ -327,7 +327,7 @@ const FEATURES = [
   {
     key:   "cart",
     label: "Medicine Cart",
-    route: "/cart",
+    route: "/medicinecart",
     desc:  "Order prescribed medicines delivered to your door",
     icon:  (
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
