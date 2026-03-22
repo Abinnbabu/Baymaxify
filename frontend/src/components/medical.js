@@ -157,7 +157,7 @@ function Navbar({ T, themeKey, setThemeKey }) {
         fontFamily: "'DM Serif Display', serif", fontSize: "1.3rem",
         fontStyle: "italic", color: T.navText, opacity: .92,
       }}>
-        MindEase
+        Baymaxify
       </span>
 
       <div style={{ display:"flex", alignItems:"center", gap:10 }}>

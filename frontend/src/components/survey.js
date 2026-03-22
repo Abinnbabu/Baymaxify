@@ -216,7 +216,7 @@ function Navbar({ T, themeKey, setThemeKey }) {
         opacity:       .92,
         letterSpacing: ".01em",
       }}>
-        MindEase
+        Baymaxify
       </span>
 
       {/* Right side */}
