@@ -8,6 +8,7 @@ import Dashboard from './components/profile';
 import MindEaseChat from './components/chatbot';
 import PrescriptionPage from './components/prescripton';
 import MedicineCartPage from './components/medicinecart';
+import AdminPage from './components/adminpage';
 import './App.css';
 
 /* ─── Global Theme Context ──────────────────────────────────────── */
@@ -28,6 +29,7 @@ function App() {
           <Route path="/chatbot" element={<MindEaseChat />} />
           <Route path="/prescription" element={<PrescriptionPage />} />
           <Route path="/medicinecart" element={<MedicineCartPage />} />
+          <Route path="/adminpage" element={<AdminPage />} />
         </Routes>
       </Router>
     </ThemeContext.Provider>
