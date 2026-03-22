@@ -224,7 +224,7 @@ function PaletteDropdown({ T, themeKey, setThemeKey }) {
 }
 
 /* ─── Login Page ─────────────────────────────────────────────────────────────── */
-export default function MindEase() {
+export default function Baymaxify() {
   const { themeKey, setThemeKey } = useContext(ThemeContext);
   const [isLogin,   setIsLogin]   = useState(true);
   const [email,     setEmail]     = useState("");
@@ -323,7 +323,7 @@ export default function MindEase() {
               letterSpacing: ".01em",
               transition:  "color .4s",
             }}>
-              MindEase
+              Baymaxify
             </span>
             <div style={{
               width:36, height:2, borderRadius:99,
@@ -356,7 +356,7 @@ export default function MindEase() {
             lineHeight:   1.2,
             transition:   "color .4s",
           }}>
-            {isLogin ? "Sign in to continue" : "Join MindEase"}
+            {isLogin ? "Sign in to continue" : "Join Baymaxify today"}
           </h2>
 
           {/* Form */}
