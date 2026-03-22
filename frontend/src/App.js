@@ -6,6 +6,7 @@ import SurveyPage from './components/survey';
 import MedicalSupport from './components/medical';
 import Dashboard from './components/profile';
 import MindEaseChat from './components/chatbot';
+import PrescriptionPage from './components/prescripton';
 import './App.css';
 
 /* ─── Global Theme Context ──────────────────────────────────────── */
@@ -24,6 +25,7 @@ function App() {
           <Route path="/medical" element={<MedicalSupport />} />
           <Route path="/profile" element={<Dashboard />} />
           <Route path="/chatbot" element={<MindEaseChat />} />
+          <Route path="/prescription" element={<PrescriptionPage />} />
         </Routes>
       </Router>
     </ThemeContext.Provider>
