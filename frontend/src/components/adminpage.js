@@ -133,7 +133,7 @@ function Navbar({ T, themeKey, setThemeKey }) {
       </div>
 
       <div style={{ display:"flex",alignItems:"center",gap:10 }}>
-        <button className="nav-btn" style={nb} onClick={() => navigate("/home")}>
+        <button className="nav-btn" style={nb} onClick={() => navigate()}>
           <svg width="13" height="13" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"><path d="M3 9.5L10 3l7 6.5"/><path d="M5 8.5v8h3.5v-4.5h3V16.5H15v-8"/></svg>
           Home
         </button>
