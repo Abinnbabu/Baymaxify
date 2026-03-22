@@ -150,7 +150,7 @@ function Navbar({ T, themeKey, setThemeKey }) {
         fontSize: "1.3rem", fontStyle: "italic",
         color: T.navText, opacity: .92, letterSpacing: ".01em",
       }}>
-        MindEase
+        Baymaxify
       </span>
 
       {/* Right side */}
@@ -230,7 +230,7 @@ function Navbar({ T, themeKey, setThemeKey }) {
 }
 
 /* ─── COMPONENT ───────────────────────────────────────────────── */
-export default function MindEaseChat() {
+export default function BaymaxifyChat() {
   const { themeKey, setThemeKey } = useContext(ThemeContext);
   const [messages, setMessages] = useState([
     { sender: "bot", text: "Hello 👋 I'm here to support you. How are you feeling today?" },
@@ -363,7 +363,7 @@ export default function MindEaseChat() {
                     color: T.accent,
                   }}
                 >
-                  MindEase Support
+                  Baymaxify Support
                 </span>
               </div>
 
